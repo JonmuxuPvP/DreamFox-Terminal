@@ -15,6 +15,10 @@ public class Dream {
 		this.isLucid = this.title.toLowerCase().contains("Lucid");
 	}
 
+	public boolean isLucid() {
+		return this.isLucid;
+	}
+
 	public String getTitle() {
 		return this.title;
 	}
